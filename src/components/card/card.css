@@ -1,0 +1,36 @@
+.container {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space between cards */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(30% - 90px); 
+    margin-bottom: 20px; /* Add spacing between cards */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .card-content {
+    margin-top: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  .card-image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+  }
+  
+ 
